@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simon Game</h1>
+      <div class="lol">
+          <div class="row center">
+            <div class=" bord" id="red" onClick="humanPlayerAdd(this.id)"></div>
+            <div class=" bord" id="green" onClick="humanPlayerAdd(this.id)"></div>
+          </div>
+          <div class="row center">
+            <div class=" bord" id="yellow" onClick="humanPlayerAdd(this.id)"></div>
+            <div class=" bord" id="blue" onClick="humanPlayerAdd(this.id)"></div>
+          </div>
+       </div>
+      <div class="level">
+        Level : <span id="level">0</span>
+      </div>
+      <div class="btns">
+        <button class="btn btn-primary" onClick="startSimon()">Start</button>
+        <button class="btn btn-danger" onClick="strict()">Strict</button>
+        Strict Mode : <span id="strict">OFF</span>
+        <button class="btn btn-info" onClick="startSimon()">Reset</button>
+      </div>
+      <div class="result text-center">
+        <span id="result"></span>
+      </div>
+    </div>
+    <script src="./javascript/simon.js" charset="utf-8"></script>
+  </body>
+</html>

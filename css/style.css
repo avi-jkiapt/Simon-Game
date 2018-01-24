@@ -1,0 +1,59 @@
+.bord{
+  height:100px;
+  cursor:pointer;
+  width:100px;
+  border: 2px solid pink;
+  border-collapse: collapse;
+  display:inline-block;
+}
+h1{
+  font-size:65px;
+  text-align:center;
+  color:#2c3e50;
+}
+.container{
+  margin-top:20px;
+  margin-bottom:30px;
+  font-size:25px;
+  color:tomato;
+}
+.lol{
+  margin:20px 40%;
+}
+#red{
+  background-color:red;
+
+}
+#green{
+  background-color:green;
+
+}
+#blue{
+  background-color:blue;
+
+}
+#yellow{
+  background-color:yellow;
+
+}
+@media screen and (min-width: 324px) and (max-width: 945px) {
+    .lol {
+       margin :20px 45px;
+    }
+}
+.level{
+  font-size:30px;
+  color:tomato;
+  text-align:center;
+}
+.btns{
+  text-align:center;
+}
+.hover{
+  opacity:0.5;
+}
+.result{
+  font-size:25px;
+  margin:20px ;
+  color:green;
+}
